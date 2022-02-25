@@ -9,10 +9,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/*elementos base*/
 body{
     background: var(--preta);
     font-family:'Times New Roman', Times, serif;
+    color: #fff;
 }
 
 header .container{
@@ -37,4 +38,16 @@ header nav a{
 }
 header nav a:hover{
     color: #fff;
+}
+
+
+
+
+/*filme princioal*/
+.filme-principal{
+    font-size: 16px;
+    background:url(/Imagem/House.jpg);
+    height: 800px;
+    background-size: cover;
+
 }
