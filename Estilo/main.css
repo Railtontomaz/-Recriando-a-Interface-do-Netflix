@@ -46,8 +46,21 @@ header nav a:hover{
 /*filme princioal*/
 .filme-principal{
     font-size: 16px;
-    background:url(/Imagem/House.jpg);
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)100%), url('/Imagem/House.jpg');
     height: 800px;
     background-size: cover;
+display: flex; 
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
 
+
+}
+
+
+
+
+
+.titulo{
+    font-size: 40px;
 }
