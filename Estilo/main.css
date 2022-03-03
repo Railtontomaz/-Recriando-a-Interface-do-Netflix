@@ -12,7 +12,7 @@
 /*elementos base*/
 body{
     background: var(--preta);
-    font-family:'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
     color: #fff;
 }
 
@@ -47,7 +47,7 @@ header nav a:hover{
 .filme-principal{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)100%), url('/Imagem/House.jpg');
-    height: 800px;
+    height: 500px;
     background-size: cover;
 display: flex; 
 flex-direction: column;
@@ -106,4 +106,8 @@ align-items: flex-start;
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
 }
